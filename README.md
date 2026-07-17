@@ -1,14 +1,33 @@
 # CPTAC-MultiOmics-MOFA
-Systematic evaluation of multi-omics combinations using MOFA across CPTAC cancer cohorts
+# CPTAC Multi-Omics Integration using MOFA
 
+## Project Overview
 
-A research project for evaluating the optimal combination of multi-omics data across CPTAC cancer types using MOFA2.
+This repository contains the analysis pipeline for integrating CPTAC multi-omics datasets using MOFA (Multi-Omics Factor Analysis).
 
-Principal Investigator:
-Dr. ALi Salehzadeh
+The main research objective is to investigate whether integrating all available omics layers always provides the best representation of clinical phenotypes, or whether specific combinations of omics produce superior results for different cancer types.
 
-Researcher:
-Mohammad Hossein Darvishali
+The project begins with Pancreatic Ductal Adenocarcinoma (PDAC) and will later be expanded to other CPTAC cancer cohorts.
 
-Current cancer:
-Pancreatic Ductal Adenocarcinoma (PDAC)
+---
+
+## Workflow
+
+1. Download CPTAC datasets (Python)
+2. Exploratory Data Analysis (Histogram)
+3. PCA for each omics layer
+4. Multi-Omics Integration using MOFA
+5. Comparison of omics combinations
+6. Cancer-specific omics profiling
+
+---
+
+## Software
+
+- Python
+- R
+- MOFA2
+- CPTAC
+- Git
+- GitHub
+
