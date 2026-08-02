@@ -47,3 +47,28 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# =========================================================================
+# Project-Specific Exclusions (CPTAC PDAC MOFA)
+# =========================================================================
+
+# Large model and environment files
+*.RData
+*.hdf5
+*.rds
+*.RDataTmp*
+
+# Temporary and checkpoint directories
+phase5_checkpoint/
+PDAC_Phase6_*.RData
+pdac_mofa_*.RData
+MOFA_Enrichment_Input/
+PDAC_MOFA_results/
+
+# Specific output CSVs and temporary data dumps
+MOFA_factor_tumor_stage_spearman.csv
+MOFA_factors_all.csv
+
+# Exclude large CSV and output files
+results/MOFA/MOFA_weights_all.csv
+data/processed/

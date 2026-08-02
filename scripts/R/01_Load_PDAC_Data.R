@@ -1,35 +1,58 @@
-
 # ============================================================
-# Project: CPTAC Multi-Omics MOFA
-# Cancer : Pancreatic Ductal Adenocarcinoma (PDAC)
-# Step   : Load PDAC datasets
+# Project : CPTAC Multi-Omics MOFA
+# Cancer  : Pancreatic Ductal Adenocarcinoma (PDAC)
+# Script  : 01_Load_PDAC_Data.R
+# Purpose : Load exported CPTAC PDAC datasets from CSV files
 # ============================================================
 
-library(cptac)
+rm(list = ls())
 
-# Load PDAC dataset
-pdac <- cptac::Pdac()
+# ------------------------------------------------------------
+# Load Clinical Data
+# ------------------------------------------------------------
 
-# Clinical data
-clinical <- pdac$get_clinical(source = "mssm")
+clinical <- read.csv(
+  "data/raw/PDAC/clinical.csv",
+  row.names = 1,
+  check.names = FALSE
+)
 
-# Proteomics
-proteomics_bcm <- pdac$get_proteomics(source = "bcm")
-proteomics_umich <- pdac$get_proteomics(source = "umich")
+# ------------------------------------------------------------
+# Quick inspection
+# ------------------------------------------------------------
 
-# Phosphoproteomics
-phospho_bcm <- pdac$get_phosphoproteomics(source = "bcm")
-phospho_umich <- pdac$get_phosphoproteomics(source = "umich")
+str(clinical)
 
-# Transcriptomics
-transcriptomics_bcm <- pdac$get_transcriptomics(source = "bcm")
-transcriptomics_broad <- pdac$get_transcriptomics(source = "broad")
-transcriptomics_washu <- pdac$get_transcriptomics(source = "washu")
+table(clinical$tumor_stage_pathological)
 
-# CNV
-cnv_bcm <- pdac$get_CNV(source = "bcm")
-cnv_washu <- pdac$get_CNV(source = "washu")
+# ------------------------------------------------------------
+# Dataset dimensions
+# ------------------------------------------------------------
 
-# miRNA
-mirna_bcm <- pdac$get_miRNA(source = "bcm")
-mirna_washu <- pdac$get_miRNA(source = "washu")
+proteomics <- read.csv(
+  "data/raw/PDAC/proteomics_umich.csv",
+  row.names = 1,
+  check.names = FALSE
+)
+
+transcriptomics <- read.csv(
+  "data/raw/PDAC/transcriptomics_broad.csv",
+  row.names = 1,
+  check.names = FALSE
+)
+
+phosphoproteomics <- read.csv(
+  "data/raw/PDAC/phosphoproteomics_umich.csv",
+  row.names = 1,
+  check.names = FALSE
+)
+
+cat("\n==============================\n")
+cat("PDAC Dataset Summary\n")
+cat("==============================\n")
+
+cat("Clinical:", dim(clinical), "\n")
+cat("Proteomics:", dim(proteomics), "\n")
+cat("Transcriptomics:", dim(transcriptomics), "\n")
+cat("Phosphoproteomics:", dim(phosphoproteomics), "\n")
+
