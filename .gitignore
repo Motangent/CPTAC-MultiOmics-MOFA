@@ -72,3 +72,6 @@ MOFA_factors_all.csv
 # Exclude large CSV and output files
 results/MOFA/MOFA_weights_all.csv
 data/processed/
+
+# Raw CPTAC PDAC data: retained locally; retrieve from source/download workflow
+data/raw/PDAC/
