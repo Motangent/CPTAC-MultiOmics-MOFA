@@ -1,0 +1,63 @@
+Call:
+coxph(formula = Surv(`Overall survival, days`, `Survival status (1, dead; 0, alive)`) ~ 
+    Factor1, data = cox_data)
+
+  n= 103, number of events= 75 
+
+           coef exp(coef) se(coef)     z Pr(>|z|)  
+Factor1 -0.2696    0.7637   0.1515 -1.78    0.075 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+        exp(coef) exp(-coef) lower .95 upper .95
+Factor1    0.7637      1.309    0.5675     1.028
+
+Concordance= 0.606  (se = 0.038 )
+Likelihood ratio test= 3.34  on 1 df,   p=0.07
+Wald test            = 3.17  on 1 df,   p=0.08
+Score (logrank) test = 3.14  on 1 df,   p=0.08
+
+Call:
+coxph(formula = Surv(`Overall survival, days`, `Survival status (1, dead; 0, alive)`) ~ 
+    Factor3, data = cox_data)
+
+  n= 103, number of events= 75 
+
+           coef exp(coef) se(coef)     z Pr(>|z|)  
+Factor3 0.18711   1.20576  0.09664 1.936   0.0528 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+        exp(coef) exp(-coef) lower .95 upper .95
+Factor3     1.206     0.8294    0.9977     1.457
+
+Concordance= 0.548  (se = 0.038 )
+Likelihood ratio test= 3.44  on 1 df,   p=0.06
+Wald test            = 3.75  on 1 df,   p=0.05
+Score (logrank) test = 3.75  on 1 df,   p=0.05
+
+Call:
+coxph(formula = Surv(`Overall survival, days`, `Survival status (1, dead; 0, alive)`) ~ 
+    Factor1 + Factor3, data = cox_data)
+
+  n= 103, number of events= 75 
+
+            coef exp(coef) se(coef)      z Pr(>|z|)  
+Factor1 -0.26162   0.76980  0.14940 -1.751   0.0799 .
+Factor3  0.18249   1.20020  0.09624  1.896   0.0579 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+        exp(coef) exp(-coef) lower .95 upper .95
+Factor1    0.7698     1.2990    0.5744     1.032
+Factor3    1.2002     0.8332    0.9939     1.449
+
+Concordance= 0.597  (se = 0.036 )
+Likelihood ratio test= 6.65  on 2 df,   p=0.04
+Wald test            = 6.93  on 2 df,   p=0.03
+Score (logrank) test = 6.88  on 2 df,   p=0.03
+
+           chisq df    p
+Factor1 2.544085  1 0.11
+Factor3 0.000838  1 0.98
+GLOBAL  2.683630  2 0.26

@@ -1,0 +1,168 @@
+CPTAC Python cache directory:
+C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data
+
+All cache files:
+ [1] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/gencode.v34.basic.annotation-mapping.txt.gz"                                     
+ [2] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC-circRNA_rsem_tumor_normal_UQ_log2(x+1)_BCM.txt.gz"                          
+ [3] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC-gene_rsem_removed_circRNA_tumor_normal_UQ_log2(x+1)_BCM.txt.gz"             
+ [4] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_miRNAseq_mature_miRNA_RPM_log2_Normal.txt.gz"                               
+ [5] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_miRNAseq_mature_miRNA_RPM_log2_Tumor.txt.gz"                                
+ [6] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_phospho_site_abundance_log2_reference_intensity_normalized_Normal.txt.gz"   
+ [7] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_phospho_site_abundance_log2_reference_intensity_normalized_Tumor.txt"       
+ [8] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt.gz"
+ [9] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt.gz" 
+[10] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/bcm-pdac/PDAC_WES_CNV_gene_ratio_log2.txt.gz"                                             
+[11] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/brca_mapping.csv"                                                                         
+[12] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/broad-pdac/gencode.v34.GRCh38.genes.collapsed_only.gtf.gz"                                
+[13] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/broad-pdac/PDAC.rsem_transcripts_tpm.txt.gz"                                              
+[14] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/broad-pdac/sample_descriptions.tsv.gz"                                                    
+[15] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/cptac_genes.csv"                                                                          
+[16] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/harmonized-all_cancers/PanCan_Union_Maf_Broad_WashU_v1.1.maf.gz"                          
+[17] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/harmonized-all_cancers/washu_mssm_consensus_ancestries.tsv.gz"                            
+[18] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/index.tsv"                                                                                
+[19] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/mssm-all_cancers/clinical_Pan-cancer.May2022.tsv.gz"                                      
+[20] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/umich-pdac/aliquot_to_patient_ID.tsv.gz"                                                  
+[21] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/umich-pdac/Report_abundance_groupby=multi-site_protNorm=MD_gu=2.tsv.gz"                   
+[22] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/umich-pdac/Report_abundance_groupby=protein_protNorm=MD_gu=2.tsv.gz"                      
+[23] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-all_cancers/CPTAC_pancan_RNA_tumor_purity_ESTIMATE_WashU.tsv.gz"                    
+[24] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-all_cancers/hla.sample.ct.10152021.sort.tsv.gz"                                     
+[25] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/CIBERSORT.Output_Abs_PDA.txt.gz"                                               
+[26] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/gencode.v22.annotation.gtf.gz"                                                 
+[27] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDA.gene_level.from_seg.filtered.tsv.gz"                                       
+[28] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDA_discovery.dnp.annotated.exonic.maf.gz"                                     
+[29] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDA_NAT_RNA-Seq_Expr_WashU_FPKM.tsv.gz"                                        
+[30] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDA_tumor_RNA-Seq_Expr_WashU_FPKM.tsv.gz"                                      
+[31] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDA_xCell.txt.gz"                                                              
+[32] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDAC_mature_miRNA_combined.tsv.gz"                                             
+[33] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDAC_precursor_miRNA_combined.tsv.gz"                                          
+[34] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/washu-pdac/PDAC_total_miRNA_combined.tsv.gz"                                              
+
+Clinical-/survival-related cache files:
+[1] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/mssm-all_cancers/clinical_Pan-cancer.May2022.tsv.gz"
+[2] "C:/Users/darvi/anaconda3/envs/cptac/Lib/site-packages/cptac/data/umich-pdac/aliquot_to_patient_ID.tsv.gz"            
+
+
+01_Download_PDAC.py:
+"""
+Project:
+CPTAC Multi-Omics MOFA
+
+Script:
+01_Download_PDAC.py
+
+Purpose:
+Download (or load if already downloaded) the CPTAC PDAC dataset
+and verify that the dataset is available.
+"""
+
+import cptac
+
+print("Loading CPTAC PDAC dataset ...")
+
+pdac = cptac.Pdac()
+
+print("PDAC dataset loaded successfully.")
+
+print("\nAvailable data types:")
+
+print(pdac.list_data())
+
+
+02_Export_PDAC.py:
+from pathlib import Path
+import cptac
+
+# ============================================================
+# Project: CPTAC Multi-Omics MOFA
+# Cancer : PDAC
+# Step   : Export downloaded datasets to CSV
+# ============================================================
+
+# Load dataset
+pdac = cptac.Pdac()
+
+# Output folder
+project_root = Path(__file__).resolve().parents[2]
+output_dir = project_root / "data" / "raw" / "PDAC"
+output_dir.mkdir(parents=True, exist_ok=True)
+
+datasets = {
+    "clinical_mssm": pdac.get_clinical(source="mssm"),
+    "medical_history": pdac.get_medical_history(source="mssm"),
+
+    "proteomics_bcm": pdac.get_proteomics(source="bcm"),
+    "proteomics_umich": pdac.get_proteomics(source="umich"),
+
+    "phosphoproteomics_bcm": pdac.get_phosphoproteomics(source="bcm"),
+    "phosphoproteomics_umich": pdac.get_phosphoproteomics(source="umich"),
+
+    "transcriptomics_bcm": pdac.get_transcriptomics(source="bcm"),
+    "transcriptomics_broad": pdac.get_transcriptomics(source="broad"),
+    "transcriptomics_washu": pdac.get_transcriptomics(source="washu"),
+
+    "cnv_bcm": pdac.get_CNV(source="bcm"),
+    "cnv_washu": pdac.get_CNV(source="washu"),
+
+    "mirna_bcm": pdac.get_miRNA(source="bcm"),
+    "mirna_washu": pdac.get_miRNA(source="washu"),
+
+    "circular_rna": pdac.get_circular_RNA(source="bcm"),
+
+    "somatic_mutation_washu": pdac.get_somatic_mutation(source="washu"),
+    "somatic_mutation_harmonized": pdac.get_somatic_mutation(source="harmonized"),
+
+    "ancestry": pdac.get_ancestry_prediction(source="harmonized"),
+    "cibersort": pdac.get_cibersort(source="washu"),
+    "hla_typing": pdac.get_hla_typing(source="washu"),
+    "tumor_purity": pdac.get_tumor_purity(source="washu"),
+    "xcell": pdac.get_xcell(source="washu"),
+}
+
+for name, df in datasets.items():
+    outfile = output_dir / f"{name}.csv"
+    df.to_csv(outfile)
+    print(f"Exported: {outfile.name}")
+
+def export_dataframe(name, df):
+    file_path = output_dir / f"{name}.csv"
+    df.to_csv(file_path)
+    print(f"✓ {name} -> {file_path}")
+
+datasets = {
+    "clinical": pdac.get_clinical(),
+    "medical_history": pdac.get_medical_history(),
+
+    "proteomics_bcm": pdac.get_proteomics(source="bcm"),
+    "proteomics_umich": pdac.get_proteomics(source="umich"),
+
+    "phosphoproteomics_bcm": pdac.get_phosphoproteomics(source="bcm"),
+    "phosphoproteomics_umich": pdac.get_phosphoproteomics(source="umich"),
+
+    "transcriptomics_bcm": pdac.get_transcriptomics(source="bcm"),
+    "transcriptomics_broad": pdac.get_transcriptomics(source="broad"),
+    "transcriptomics_washu": pdac.get_transcriptomics(source="washu"),
+
+    "cnv_bcm": pdac.get_CNV(source="bcm"),
+    "cnv_washu": pdac.get_CNV(source="washu"),
+
+    "mirna_bcm": pdac.get_miRNA(source="bcm"),
+    "mirna_washu": pdac.get_miRNA(source="washu"),
+
+    "circular_rna": pdac.get_circular_RNA(source="bcm"),
+
+    "somatic_mutation_washu": pdac.get_somatic_mutation(source="washu"),
+    "somatic_mutation_harmonized": pdac.get_somatic_mutation(source="harmonized"),
+
+    "ancestry": pdac.get_ancestry_prediction(source="harmonized"),
+    "cibersort": pdac.get_cibersort(source="washu"),
+    "hla_typing": pdac.get_hla_typing(source="washu"),
+    "tumor_purity": pdac.get_tumor_purity(source="washu"),
+    "xcell": pdac.get_xcell(source="washu"),
+}
+
+for name, df in datasets.items():
+    export_dataframe(name, df)
+
+print("\nAll PDAC datasets exported successfully.")
+
+
